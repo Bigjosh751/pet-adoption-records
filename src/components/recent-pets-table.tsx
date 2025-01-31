@@ -61,6 +61,8 @@ export function RecentPetTable() {
             <TableCell className="whitespace-nowrap">
               <div className="flex items-center">
                 <UpdateAdoptionHistoryTable
+                  formData={{ email: adaptor.email, name: adaptor.adopterName }}
+                  adaptorID={adaptor.petId}
                   trigger={
                     <Button className="h-[35px] rounded-md bg-yellow-500 hover:bg-yellow-700 w-[50px] rounded-e-none cursor-pointer flex items-center justify-center text-white text-xl">
                       <CgEditFlipH />
