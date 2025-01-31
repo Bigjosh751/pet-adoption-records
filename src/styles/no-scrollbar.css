@@ -1,0 +1,18 @@
+::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
+}
+* {
+  scroll-behavior: smooth;
+  /* transition: .1s linear; */
+}
+::-webkit-scrollbar-thumb {
+  width: 0;
+  background-color: transparent;
+}
+* {
+  scrollbar-width: none;
+}
+li .is-active{
+  background-color: white;
+}
